@@ -1,0 +1,69 @@
+TensorFlow version: 2.13.1
+Num GPUs: 0
+
+Processing data
+Duration: 2.619821071624756 sec
+
+Creating vocabularies
+Duration: 522.5272738933563 sec
+
+Training model
+Epoch 1/10
+225/225 [==============================] - 1605s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0012 - factorized_top_k/top_5_categorical_accuracy: 0.0018 - factorized_top_k/top_10_categorical_accuracy: 0.0025 - factorized_top_k/top_50_categorical_accuracy: 0.0051 - factorized_top_k/top_100_categorical_accuracy: 0.0071 - loss: 35549.1028 - regularization_loss: 0.0000e+00 - total_loss: 35549.1028
+Epoch 2/10
+225/225 [==============================] - 1598s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0049 - factorized_top_k/top_5_categorical_accuracy: 0.0128 - factorized_top_k/top_10_categorical_accuracy: 0.0150 - factorized_top_k/top_50_categorical_accuracy: 0.0219 - factorized_top_k/top_100_categorical_accuracy: 0.0262 - loss: 51798.9405 - regularization_loss: 0.0000e+00 - total_loss: 51798.9405
+Epoch 3/10
+225/225 [==============================] - 1592s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0220 - factorized_top_k/top_5_categorical_accuracy: 0.0451 - factorized_top_k/top_10_categorical_accuracy: 0.0512 - factorized_top_k/top_50_categorical_accuracy: 0.0692 - factorized_top_k/top_100_categorical_accuracy: 0.0813 - loss: 33362.1640 - regularization_loss: 0.0000e+00 - total_loss: 33362.1640
+Epoch 4/10
+225/225 [==============================] - 1590s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0545 - factorized_top_k/top_5_categorical_accuracy: 0.1269 - factorized_top_k/top_10_categorical_accuracy: 0.1600 - factorized_top_k/top_50_categorical_accuracy: 0.2398 - factorized_top_k/top_100_categorical_accuracy: 0.2785 - loss: 28985.4764 - regularization_loss: 0.0000e+00 - total_loss: 28985.4764
+Epoch 5/10
+225/225 [==============================] - 1592s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0690 - factorized_top_k/top_5_categorical_accuracy: 0.1361 - factorized_top_k/top_10_categorical_accuracy: 0.1617 - factorized_top_k/top_50_categorical_accuracy: 0.2372 - factorized_top_k/top_100_categorical_accuracy: 0.2778 - loss: 27169.9331 - regularization_loss: 0.0000e+00 - total_loss: 27169.9331
+Epoch 6/10
+225/225 [==============================] - 1590s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0840 - factorized_top_k/top_5_categorical_accuracy: 0.1589 - factorized_top_k/top_10_categorical_accuracy: 0.1905 - factorized_top_k/top_50_categorical_accuracy: 0.2930 - factorized_top_k/top_100_categorical_accuracy: 0.3453 - loss: 25992.3150 - regularization_loss: 0.0000e+00 - total_loss: 25992.3150
+Epoch 7/10
+225/225 [==============================] - 1591s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0768 - factorized_top_k/top_5_categorical_accuracy: 0.1523 - factorized_top_k/top_10_categorical_accuracy: 0.1883 - factorized_top_k/top_50_categorical_accuracy: 0.2955 - factorized_top_k/top_100_categorical_accuracy: 0.3552 - loss: 25222.1745 - regularization_loss: 0.0000e+00 - total_loss: 25222.1745
+Epoch 8/10
+225/225 [==============================] - 1608s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0833 - factorized_top_k/top_5_categorical_accuracy: 0.1763 - factorized_top_k/top_10_categorical_accuracy: 0.2193 - factorized_top_k/top_50_categorical_accuracy: 0.3420 - factorized_top_k/top_100_categorical_accuracy: 0.4044 - loss: 24501.4879 - regularization_loss: 0.0000e+00 - total_loss: 24501.4879
+Epoch 9/10
+225/225 [==============================] - 1597s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0800 - factorized_top_k/top_5_categorical_accuracy: 0.1725 - factorized_top_k/top_10_categorical_accuracy: 0.2155 - factorized_top_k/top_50_categorical_accuracy: 0.3385 - factorized_top_k/top_100_categorical_accuracy: 0.4063 - loss: 24050.2896 - regularization_loss: 0.0000e+00 - total_loss: 24050.2896
+Epoch 10/10
+225/225 [==============================] - 1600s 7s/step - factorized_top_k/top_1_categorical_accuracy: 0.0800 - factorized_top_k/top_5_categorical_accuracy: 0.1841 - factorized_top_k/top_10_categorical_accuracy: 0.2303 - factorized_top_k/top_50_categorical_accuracy: 0.3650 - factorized_top_k/top_100_categorical_accuracy: 0.4341 - loss: 23688.5057 - regularization_loss: 0.0000e+00 - total_loss: 23688.5057
+Duration: 15962.159583806992 sec
+
+Calculating accuracy
+Accuracy:
+-----------------------------------
+	1: 0.35799993898000726
+	5: 0.42000148191383313
+	10: 0.5496877083944868
+	50: 0.17787493516634098
+	100: 0.12290616432685268
+Duration: 14090.194870710373 sec
+
+Checking random sample
+Top 5 recommendations for user 101876:
+-----------------------------------
+Title:  Your Money or Your Life: Transforming Your Relationship With Money and Achieving Financial Independence
+Author:  Joe Dominguez
+Year of Publication:  1993
+-----------------------------------
+Title:  Better Times Than These
+Author:  Winston Groom
+Year of Publication:  1994
+-----------------------------------
+Title:  Whirlwind
+Author:  James Clavell
+Year of Publication:  1987
+-----------------------------------
+Title:  Brazil
+Author:  JOHN UPDIKE
+Year of Publication:  1994
+-----------------------------------
+Title:  Mama
+Author:  Terry McMillan
+Year of Publication:  1994
+-----------------------------------
+Duration: 135.06209540367126 sec
+
+
+Process finished with exit code 0
